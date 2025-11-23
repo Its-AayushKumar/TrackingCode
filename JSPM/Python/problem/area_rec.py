@@ -1,5 +1,5 @@
 def area_rec(a,b):
-    c = a*b
-    return(c)
+    h = a*b
+    return(h)
 d = area_rec(4,5)
 print(d)

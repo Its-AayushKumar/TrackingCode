@@ -1,6 +1,6 @@
 a = 34
 b = 6.9
-c = 3 + 4j
+c = 3 + 4j    # Python uses 'j' for imaginary number
 d = 'str'
 e = [1,2,3,4,5]
 f = (1,2,3,4,5)

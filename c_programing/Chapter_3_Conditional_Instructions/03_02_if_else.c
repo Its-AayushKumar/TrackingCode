@@ -13,7 +13,8 @@ int main()
     {
         printf("You are not eligible for voting\n");
     }
-    if (age = 50 ){
+    if (age == 50)
+    {
         printf("Half century \n");
     }
 

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "pr_03.C": "cpp"
+        "pr_03.C": "cpp",
+        "stdio.h": "c"
     }
 }

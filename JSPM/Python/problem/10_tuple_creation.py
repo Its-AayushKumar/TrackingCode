@@ -1,0 +1,2 @@
+list = ['Aayush']
+print(list)

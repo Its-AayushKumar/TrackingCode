@@ -14,3 +14,5 @@ int main()
 
     return 0;
 }
+// Here the output will be "I am 11" because we have used assignment operator
+// (a=11)instead of comparison opreator. Assignment operator always give true value

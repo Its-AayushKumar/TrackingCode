@@ -1,2 +1,0 @@
-list = ['Aayush']
-print(list)

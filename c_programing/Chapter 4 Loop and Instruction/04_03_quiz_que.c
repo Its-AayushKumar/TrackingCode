@@ -8,7 +8,7 @@ int main()
     while (a >= 10 && a <= 20)
     {
         printf("%d\n", a);
-        a++;
+        a++; // a = a + 1
     }
 
     return 0;

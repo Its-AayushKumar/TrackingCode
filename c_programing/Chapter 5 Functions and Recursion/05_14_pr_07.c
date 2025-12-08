@@ -13,7 +13,7 @@ int main()
 void pattern(int n)
 {
     int i;
-    for (i = 0; i < 2 * n - 1; i++)
+    for (i = 0; i < n; i++)
     {
         printf("*\n");
     }

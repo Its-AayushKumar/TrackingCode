@@ -19,6 +19,15 @@ int main()
     {
         printf("Enter integers no. %d:\n", i + 1);
         scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
     }
     int count = positive(arr);
     printf("Total number positive integers are :%d\n", count);

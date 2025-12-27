@@ -3,7 +3,7 @@
 
 int main()
 {
-    char *st = "Aayush ";
+    char *st = "Aayush";
     int a = strlen(st);
     printf("The length of string st is %d ", a);
 

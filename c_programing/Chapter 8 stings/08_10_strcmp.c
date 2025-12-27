@@ -5,6 +5,6 @@ int main()
 {
     char st1[45] = "Hello";
     char *st2 = "world";
-    int val = strcmp(st1, st2);
+    int val = strcmp(st1, st2); // Here charaters are matched accrording to ascii value
     printf("%d", val);
 }

@@ -13,7 +13,7 @@ void slice(char *st, int m, int n)
 int main()
 {
     char st[] = "Aayush";
-    slice(st, , 4);
+    slice(st, 1, 4);
     printf("%s", st);
 
     return 0;

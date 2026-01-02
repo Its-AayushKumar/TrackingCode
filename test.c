@@ -1,15 +1,15 @@
 #include <stdio.h>
-void fun(int arr[])
-{
-    arr[0] = 7;
-    return;
-}
 
 int main()
 {
-    int arr[5] = {1, 2, 3, 4, 5};
-    printf("%d\n", arr[0]);
-    fun(arr);
-    printf("%d\n", arr[0]);
+    int n;
+    printf("Enter a nunber ; ");
+    scanf("%d", &n);
+    int k = 2 * n - 1;
+    int arr[k][k];
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d\n", arr);
+    }
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct employee
+typedef struct employee // Typedef is used to create a alice name
 {
     int code;
     float salary;

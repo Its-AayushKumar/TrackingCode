@@ -5,3 +5,5 @@ first,last = name.split(" ")
 
 print(f"hello, {first}")
 print(f"hello, {last}")
+
+# The above code has limitation it will only work for two word name

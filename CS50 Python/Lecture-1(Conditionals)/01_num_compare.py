@@ -7,3 +7,6 @@ if x>y :
     print("x is greater than y")
 if x==y :
     print("x is equal to y")
+
+# But tis is not the best way 
+# Here if the first statement is true than also second and third is checked

@@ -5,7 +5,7 @@ int main()
     FILE *ptr;
     int num;
     int num2;
-    ptr = fopen("Aayuh.txt", "r");
+    ptr = fopen("Aayush.txt", "r");
     if (ptr == NULL)
     {
         printf("The file does not exist \n");

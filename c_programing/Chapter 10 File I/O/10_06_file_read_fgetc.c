@@ -9,7 +9,7 @@ int main()
     while (c != EOF)
     {
         printf("%c", c);
-        // c = fgetc(ptr);
+        c = fgetc(ptr); // This is here for next charater
     }
     return 0;
 }

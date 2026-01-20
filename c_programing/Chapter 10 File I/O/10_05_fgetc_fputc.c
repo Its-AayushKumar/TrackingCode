@@ -10,8 +10,8 @@ int main()
 
     ptr = fopen("putcdemo.txt", "w");
     putc('c', ptr);
-    putc('c', ptr);
-    putc('c', ptr);
+    // putc('c', ptr);
+    // putc('c', ptr); --> Multiple time using this will append multiple c in the file
     fclose(ptr);
     return 0;
 }

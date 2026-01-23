@@ -4,7 +4,6 @@
 #     print("Even")
 # else :
 #     print("Odd")
-
 def main():
     x = int(input("Enter value of x:")) 
     if is_even(x):

@@ -17,6 +17,6 @@ int main()
     {
         ptr[i] = 7 * (i + 1);
         printf("The value of 7 X %d = %d \n", i + 1, ptr[i]);
-    }
+    } 
     return 0;
 }

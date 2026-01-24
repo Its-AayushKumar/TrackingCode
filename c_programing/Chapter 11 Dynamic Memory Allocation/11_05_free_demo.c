@@ -5,7 +5,7 @@ int main()
 {
     float *ptr;
     float *ptr2;
-    ptr = (float *)malloc(5 * sizeof(float));
+    ptr = (float *)malloc(500 * sizeof(float));
     for (int i = 0; i < 5; i++)
     {
         ptr2 = (float *)malloc(600000 * sizeof(float));

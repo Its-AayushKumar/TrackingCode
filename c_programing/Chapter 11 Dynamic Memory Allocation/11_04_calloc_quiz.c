@@ -19,4 +19,4 @@ int main()
     }
     return 0;
 }
-// Allocates continous space in memory for 6 blocks(int)
+// Allocates continous space in memory for n blocks(int)

@@ -2,48 +2,20 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "cppbuild",
-			"label": "Build with GCC 15.2.0",
-			"command": "C:\\mingw64\\bin\\g++.exe",
+			"label": "Build and Run C++ (GCC)",
+			"type": "shell",
+			"command": "cmd",
 			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"-std=c++23",
-				"${workspaceFolder}\\C++\\Chapter 1\\*.cpp",
-				"-o",
-				"${workspaceFolder}\\C++\\Chapter 1\\rooster.exe"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}\\C++\\Chapter 1"
-			},
-			"problemMatcher": [
-				"$gcc"
+				"/c",
+				"g++ -std=c++23 \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\""
 			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: C:\\mingw64\\bin\\g++.exe"
-		},
-		{
-			"type": "cppbuild",
-			"label": "C/C++: cl.exe build active file",
-			"command": "cl.exe",
-			"args": [
-				"/Zi",
-				"/EHsc",
-				"/nologo",
-				"/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${file}"
-			],
-			"options": {
-				"cwd": "${fileDirname}"
-			},
 			"problemMatcher": [
-				"$msCompile"
-			],
-			"group": "build",
-			"detail": "compiler: cl.exe"
+				"$gcc"
+			]
 		}
 	]
 }

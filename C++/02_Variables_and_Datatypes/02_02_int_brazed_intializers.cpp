@@ -2,19 +2,15 @@
 
 int main()
 {
-    // Braced initialiqers
+    // Braced initializers
     // Variable may contain random garbage value .  WARNING
     int elephant_count;
-
     int lion_count{}; // Initializes to zero
-
     int dog_count{10}; // Initializes to 10
-
     int cat_count{15}; // Initializes to 15
-
+   
     // Can use expression as initializer
     int domesticated_animals{dog_count + cat_count};
-
     // int new_number{doesnt_exist}; // This gives error
 
     std::cout << "Elephant:" << elephant_count << std::endl;
@@ -23,6 +19,9 @@ int main()
     std::cout << "Cat:" << cat_count << std::endl;
     std::cout << "Domesticated:" << domesticated_animals << std::endl;
 
-    int narrowing_conversion{2.9};
-    std::cout << "NUMber:" << narrowing_conversion << std::endl;
+    // int narrowing_conversion{2.9};
+    // std::cout << "NUMber:" << narrowing_conversion << std::endl;
+
+
+
 }

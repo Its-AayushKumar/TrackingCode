@@ -85,7 +85,7 @@ int main()
     std::cout << "Long long : " << long_long << " , size : "
               << sizeof(long long) << " bytes" << std::endl;
 
-    std::cout << "Long long int : " << long_long_int << " , size : "
+    std::cout << "Long long int :  " << long_long_int << " , size : "
               << sizeof(long long int) << " bytes" << std::endl;
 
     std::cout << "Signed long long : " << signed_long_long << " , size : "

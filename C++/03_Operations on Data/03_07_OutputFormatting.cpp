@@ -258,7 +258,7 @@ int main()
 
     std::cout << std::endl;
     std::cout << "double values (back to defaults) : " << std::endl;
-    std::cout.unsetf(std::ios::scientific | std::ios::fixed); // Hack
+    std::cout.unsetf(std::ios::scientific | std::ios::fixed); // Hack --> To set floating point output to default
     std::cout << "a : " << a << std::endl;
     std::cout << "b : " << b << std::endl;
     std::cout << "c : " << c << std::endl;
@@ -270,12 +270,12 @@ int main()
 
     a = 3.1415926535897932384626433832795;
 
-    std::cout << std::endl;
-    std::cout << "a (default precision(6)) : " << a << std::endl;
-    std::cout << std::setprecision(10);
-    std::cout << "a (precision(10)) : " << a << std::endl;
-    std::cout << std::setprecision(20);
-    std::cout << "a (precision(20)) : " << a << std::endl;
+    // std::cout << std::endl;
+    // std::cout << "a (default precision(6)) : " << a << std::endl;
+    // std::cout << std::setprecision(10);
+    // std::cout << "a (precision(10)) : " << a << std::endl;
+    // std::cout << std::setprecision(20);
+    // std::cout << "a (precision(20)) : " << a << std::endl;
 
     // If the precision is bigger than supported by the type, you'll just print garbage.
 
@@ -304,6 +304,6 @@ int main()
     std::cout << "e : " << e << std::endl;
     std::cout << "f : " << f << std::endl; // 12.0
     std::cout << "g : " << g << std::endl;
-
+    // for the above we get 20 digit in total in output due to precision
     return 0;
 }

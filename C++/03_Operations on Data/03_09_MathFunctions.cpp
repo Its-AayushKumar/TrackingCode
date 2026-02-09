@@ -12,7 +12,7 @@ int main()
     // ceil -->Gives the smallest integer greater than or equal to the number
     std::cout << "Weight rounded to ceil is : " << std::ceil(weight) << std::endl;
 
-    // abs
+    // abs --> absolute value means without sign
     double savings{-5000};
 
     std::cout << "Abs of weight is : " << std::abs(weight) << std::endl;

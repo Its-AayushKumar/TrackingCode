@@ -6,7 +6,7 @@ int main()
     char character2{'r'};
     char character3{'r'};
     char character4{'o'};
-    char character5{'w'};
+    char character5{'we'};
 
     std::cout << character1 << std::endl;
     std::cout << character2 << std::endl;

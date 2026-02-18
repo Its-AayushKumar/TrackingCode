@@ -9,7 +9,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c++23",
-                "${file}",
+                "*.cpp",
                 "-o",
                 "${fileDirname}\\rooster.exe"
             ],

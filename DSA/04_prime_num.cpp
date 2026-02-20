@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n = 232342424;
+    int n = 10;
     bool isprime = true;
 
     for (int i = 2; i * i <= n; i++) // here we are doing i*i <= n so we do not get the repeated factors

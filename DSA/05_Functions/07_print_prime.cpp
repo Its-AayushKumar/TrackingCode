@@ -1,25 +1,35 @@
 #include <iostream>
 using namespace std;
 
-int printPrime(int n)
+bool isPrime(int num)
 {
-    // bool isprime = true;
+    if (num <= 1)
+        return false;
+
+    for (int i = 2; i * i <= num; i++)
+    {
+        if (num % i == 0)
+            return false;
+    }
+    return true;
+}
+
+void printPrime(int n)
+{
     for (int i = 2; i <= n; i++)
     {
-        if (n % i != 0)
-        {
-            cout << i << endl;
-        }
+        if (isPrime(i))
+            cout << i << " ";
     }
-    return printPrime(n);
 }
 
 int main()
 {
     int n{};
-    cout << "Enter a number :" << endl;
+    cout << "Enter a number: ";
     cin >> n;
-    cout << printPrime(n) << endl;
+
+    printPrime(n);
 
     return 0;
 }

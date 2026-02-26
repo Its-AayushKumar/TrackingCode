@@ -30,13 +30,17 @@ public:
         cout << "Brand:" << brand << endl;
         cout << "Year:" << year << endl;
     }
+    ~car()
+    {
+        cout << "Object Destructed !!" << brand << endl;
+    }
 };
 
 int main()
 {
     car cobj1;
     cobj1.display();
-    car cobj2("sfnsjo", 93393);
+    car cobj2("bmw", 93393);
     cobj2.display();
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// To print subarrays
 int main()
 {
     int n = 5;

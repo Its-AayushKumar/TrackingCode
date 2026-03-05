@@ -9,6 +9,9 @@ int main()
 {
     int x{5};
     int y{6};
+    int *p_x{&x};
+    int *p_y{&y};
+
     int result = maximum(x, y);
     std::cout << "result :" << result << std::endl;
 
@@ -20,6 +23,9 @@ int main()
     std::string q{"world"};
     auto result2 = maximum(p, q);
     std::cout << "result2 :" << result2 << std::endl;
+
+    auto result4 = maximum(p_x, p_y); // We are not comparing the values here the address are getting compared
+    std::cout << "result4 :" << *result4 << std::endl;
 
     return 0;
 }

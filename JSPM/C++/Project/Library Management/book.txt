@@ -1,0 +1,16 @@
+title|author|genre|isbn|totalCopies|availableCopies
+Atomic Habits|James Clear|Self-Help|10001|10|10
+The Alchemist|Paulo Coelho|Fiction|10002|12|12
+Rich Dad Poor Dad|Robert Kiyosaki|Finance|10003|8|8
+Think and Grow Rich|Napoleon Hill|Self-Help|10004|10|10
+Ikigai|Héctor García & Francesc Miralles|Self-Help|10005|9|9
+The Psychology of Money|Morgan Housel|Finance|10006|11|11
+Deep Work|Cal Newport|Productivity|10007|7|7
+Can't Hurt Me|David Goggins|Motivation|10008|6|6
+The Power of Now|Eckhart Tolle|Spiritual|10009|8|8
+Sapiens|Yuval Noah Harari|History|10010|10|10
+The 5 AM Club|Robin Sharma|Self-Help|10011|9|9
+Start With Why|Simon Sinek|Leadership|10012|7|7
+The Subtle Art of Not Giving a F*ck|Mark Manson|Self-Help|10013|10|10
+Do Epic Shit|Ankur Warikoo|Motivation|10014|8|8
+Wings of Fire|A.P.J. Abdul Kalam|Autobiography|10015|12|12-

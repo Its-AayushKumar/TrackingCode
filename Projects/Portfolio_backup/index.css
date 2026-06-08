@@ -1,0 +1,135 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #121212;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E5E7EB;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #050505;
+  color: #F8F8F8;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom rounded corners rule (forces 2rem to 3rem padding/corners) */
+.rounded-custom-card {
+  border-radius: 2rem;
+}
+
+@media (min-width: 768px) {
+  .rounded-custom-card {
+    border-radius: 3rem;
+  }
+}
+
+/* Smooth transitions */
+.transition-magnetic {
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.transition-lift {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.3s ease;
+}
+
+.transition-lift:hover {
+  transform: translateY(-1px);
+}
+
+/* Custom button hover overlay styling */
+.btn-magnetic {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 1;
+}
+
+.btn-magnetic:hover {
+  transform: scale(1.03);
+}
+
+.btn-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #E5E7EB;
+  transform: translateY(100%);
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+}
+
+.btn-magnetic:hover .btn-overlay {
+  transform: translateY(0);
+}
+
+.btn-content {
+  position: relative;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Monospace ticker blinking cursor */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Glassmorphism backgrounds */
+.glass-panel {
+  background: rgba(42, 42, 53, 0.25);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-navbar {
+  background: rgba(5, 5, 5, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Sticky cards container height and spacing */
+.sticky-card {
+  position: sticky;
+  top: 12vh;
+  min-height: 75vh;
+}
+
+/* Smooth text shadows */
+.neon-text-glow {
+  text-shadow: 0 0 15px rgba(229, 231, 235, 0.25);
+}
+
+.neon-border-glow:hover {
+  box-shadow: 0 0 25px rgba(229, 231, 235, 0.15);
+  border-color: rgba(229, 231, 235, 0.3);
+}

@@ -1,9 +1,9 @@
 // 5
-// A B C D E 
-// A B C D 
-// A B C 
-// A B 
-// A 
+// E 
+// D E 
+// C D E 
+// B C D E
+// A B C D E
 
 #include <iostream>
 using namespace std;
@@ -11,10 +11,10 @@ using namespace std;
 void pattern(int n)
 {
 
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
 
-        for (char ch = 'A'; ch <= 'A' +(n-i-1); ch++)
+        for (char ch = 'E'-i; ch <= 'E' ; ch++)
         {
             cout << ch << " ";
         }

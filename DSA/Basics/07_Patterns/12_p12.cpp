@@ -11,6 +11,7 @@ using namespace std;
 void pattern(int n)
 {
     int space = 2 * (n - 1);
+    
     for (int i = 1; i <= n; i++)
     {
         // numbers
@@ -23,6 +24,9 @@ void pattern(int n)
         for (int j = 1; j <= space; j++)
         {
             cout << " ";
+            // if(n>=10){
+            //     cout<<"  ";
+            // }
         }
 
         // numbers

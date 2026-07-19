@@ -16,7 +16,7 @@ int dectobinary(int decNum)
 }
 int main()
 {
-    int decNum = 50;
+    int decNum = 5;
     cout << dectobinary(decNum) << endl;
     return 0;
 }

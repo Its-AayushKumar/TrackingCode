@@ -21,6 +21,6 @@ int binToDecimal(int binNum)
 }
 int main()
 {
-    cout << binToDecimal(1001) << endl;
+    cout << binToDecimal(100) << endl;
     return 0;
 }

@@ -12,7 +12,7 @@ int main()
         n3 = n1;
     else
         n3 = n2;
-    int poly1[n3 + 1]={0}, poly2[n3 + 1]={0}, polyS[n3 + 1]={0};
+    int poly1[n3 + 1] = {0}, poly2[n3 + 1] = {0}, polyS[n3 + 1] = {0};
     for (int i = 0; i <= n1; i++)
     {
         cout << "Enter value of " << i << "degree element for first polynomial:" << endl;
@@ -25,19 +25,15 @@ int main()
         cin >> poly2[i];
     }
 
-    for (int i = 0; i <=n3; i++)
+    for (int i = 0; i <= n3; i++)
     {
         polyS[i] = poly1[i] + poly2[i];
-    }
-
-    for (int i = 0; i <=n3; i++)
-    {
         // cout<<"The coefficient x^"<<i<<"is:"<<polyS[i]<<endl;
-        cout << polyS[i]<< "x^" << i ;
-        if (i!= n3){
-            cout<<"+";
+        cout << polyS[i] << "x^" << i;
+        if (i != n3)
+        {
+            cout << "+";
         }
     }
-
     return 0;
 }

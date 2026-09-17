@@ -19,5 +19,9 @@ int main()
     cout<<endl;
 
     cout<<"val at idx 2"<<vec[3]<<" or "<<vec.at(2)<<endl;
+
+    cout<<"front:"<<vec.front()<<endl;
+    cout<<"back:"<<vec.back()<<endl;
+
     return 0;
 }

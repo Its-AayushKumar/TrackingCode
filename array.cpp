@@ -1,23 +1,43 @@
 #include <iostream>
 using namespace std;
 
+int stack[100], n = 100, top = -1;
 
-int main() {
-    
-    int n ;
-    cin >>n;
-    int arr[n];
-    // int ar[n];
-    for(int i = 0 ; i < n ; i ++){
-        cin>>arr[i];
-
+void push(int val)
+{
+    if (top >= n)
+    {
+        cout << "Stack overflow" << endl;
     }
-    for (int j = 0 ; j<n/2;j++){
-        int temp = arr[j];       
-        arr[j] = arr[n - j - 1]; 
-        arr[n - j - 1] = temp;   }
-        for (int i = 0 ; i<n;i++){
-cout<<arr[i];
+    else
+    {
+        top++;
+        stack[top] = val;
+    }
+}
+void pop()
+    {
+        if (top <= -1)
+            cout << "Stack underflow " << endl;
+        else
+        {
+            cout << stack[top]<<endl;
+            top--;
         }
-        return 0;
+    }
+
+void display(){
+    for (int i = top ; i >= 0; i--){
+        cout<<stack[i]<<endl;
+    }
+}
+int main()
+{
+push(10);
+push(11);
+push(12);
+push(13);
+pop();
+display();
+    return 0;
 }

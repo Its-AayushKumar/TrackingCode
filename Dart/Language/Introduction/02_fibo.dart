@@ -3,7 +3,7 @@ int fibonacci(int n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-var result = fibonacci(20);
- void main (){
-  print (result);
- }
+var result = fibonacci(3);
+void main() {
+  print(result);
+}
